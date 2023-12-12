@@ -2,6 +2,7 @@
 import Image from "next/image";
 import jsonData from "../public/csvjson.json";
 import { useEffect, useState } from "react";
+import MyComponent from "./order/page";
 
 export default function Home() {
   const [foodItems, setFoodItems] = useState([]);
@@ -10,6 +11,7 @@ export default function Home() {
   }, []);
   return (
     <div>
+      <MyComponent></MyComponent>
       {foodItems.map((food) => (
         <h1>{food.Name}</h1>
       ))}
