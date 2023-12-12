@@ -1,0 +1,230 @@
+[
+  {
+    "Name": "Classic Burger",
+    "Description": "Бургер лепче, кари сос, кечап, плескавица, кисели краставички, кромид",
+    "Price": "170 ден",
+    "Image": "https://korpa.ba/product_uploads/Yxv4fh2gA5gVG2Z8ruO08ftZHfnagrBM.jpg"
+  },
+  {
+    "Name": "Chilli Burger",
+    "Description": "Бургер лепче, говедска плескавица, чедар, доритос лут чипс, ајсберг, кисели краставички, чили сос",
+    "Price": "220 ден",
+    "Image": "https://korpa.ba/product_uploads/gghT26UKlIDR94t4qHyHV7kSKwKDpqJq.jpg"
+  },
+  {
+    "Name": "Walter Junior",
+    "Description": "Бургер лепче, бургер сос, плескавица, кашкавал, ајсберг, кромид, кисели краставички",
+    "Price": "190 ден",
+    "Image": "https://korpa.ba/product_uploads/bzy14YwE7Vdeoem0HlR6fruTP7Dfgim0.jpg"
+  },
+  {
+    "Name": "Camembert",
+    "Description": "Бургер лепче, бургер сос, плескавица, 2x зденка, ајсберг, кисели краставички",
+    "Price": "220 ден",
+    "Image": "https://korpa.ba/product_uploads/aoWX1gL3qkDZcusxZS48mVmrZmSQFSgY.jpg"
+  },
+  {
+    "Name": "Goodman",
+    "Description": "Бургер лепче, мед и сенф сос, плескавица, 2x кашкавал, ајсберг, кисели краставички, 3x онион рингс",
+    "Price": "240 ден",
+    "Image": "https://korpa.ba/product_uploads/cA5hIqLNmT2itPhRJsvPjOzixi7XMy8c.jpg"
+  },
+  {
+    "Name": "Heisen",
+    "Description": "Бургер лепче, бургер сос, плескавица, кашкавал, ајсберг, карамелизиран кромид",
+    "Price": "230 ден",
+    "Image": "https://korpa.ba/product_uploads/xnOGiWE4mvE3ztsYbpBfx7I3qg7EMU6L.jpg"
+  },
+  {
+    "Name": "Single Smash",
+    "Description": "Бриож лепче, 100% јунешка плескавица, кашкавал, кечап, сенф, ситно сецкан кромид и кисели краставички",
+    "Price": "220 ден",
+    "Image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dimitrasdishes.com%2Fthe-best-smash-burger-recipe%2F&psig=AOvVaw2U0db3H7JYDt9ZLe-kXYIy&ust=1702476060348000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjeqtqHioMDFQAAAAAdAAAAABAD"
+  },
+  {
+    "Name": "Premium Cheeseburger (2x smash beef)",
+    "Description": "Бургер лепче, јамјам сос, премиум јунешка плескавица x2, чедар x2, ајсберг, домат, кисели краставици",
+    "Price": "260 ден",
+    "Image": "https://korpa.ba/product_uploads/GEAGPZuOQfT62hm8ITjkQe3IOEIj90qV.jpg"
+  },
+  {
+    "Name": "Double Cheeseburger",
+    "Description": "Бриош лебче, 2х смеш плескавици, 2х чедар, кечап, сенф, кромид и кисели краставички",
+    "Price": "260 ден",
+    "Image": "https://korpa.ba/product_uploads/zvbbx5aNiecnoVnlKmrlNDCSJ3aPLNbu.JPG"
+  },
+  {
+    "Name": "Big Mac Burger",
+    "Description": "Бургер лепче, биг мек сос, 2x смеш плескавици, 2x чедар, ајсберг, ситно сецкан кромид, кисели краставици",
+    "Price": "310 ден",
+    "Image": "https://korpa.ba/product_uploads/Lsf3ZOLujSOfgNvHvjoAygrqalxtUptz.jpg"
+  },
+  {
+    "Name": "Jesse Pinkman",
+    "Description": "Бургер лепче, бургер сос, 2x смеш плескавици, 2x чедар, путер и лук, 3x онион рингс, ајсберг, домат, кисели краставички",
+    "Price": "330 ден",
+    "Image": "https://korpa.ba/product_uploads/TNibFS7wy4H06QCncQQgdBQgnoEc6Z3N.jpg"
+  },
+  {
+    "Name": "Say Cheese",
+    "Description": "Бриож лепче, бургер сос, 2x смеш јунешки плескавици, 4x чедар, ајсберг, кисели краставички, карамелизиран кромид",
+    "Price": "300 ден",
+    "Image": "https://korpa.ba/product_uploads/lR3owlUosqeB1wn0dCnsi7QeB1yjWIv3.png"
+  },
+  {
+    "Name": "The Joker (Тriple smash) Burger",
+    "Description": "Бриож лепче, кечап, сенф, кисели краставици, кромид, 3х smash плескавици, 3х чедар кашкавал",
+    "Price": "320 ден",
+    "Image": "https://korpa.ba/product_uploads/RoVwEWfKgZQ2RsDS696PM2m7mOSBf8g0.jpg"
+  },
+  {
+    "Name": "BBQ Smash Burger",
+    "Description": "Бриож лепче, гарлик мајо сос, кисели краставици, 2х smash плескавици, 2х чедар, bbq грилован кромид",
+    "Price": "270 ден",
+    "Image": "https://korpa.ba/product_uploads/t5FqhSz5wuW5rkvOKte6Utr7fQa6k2Kn.jpg"
+  },
+  {
+    "Name": "Classic Chicken",
+    "Description": "Бургер лепче, кари сос, кечап, поховано пилешко, кисели краставички, кромид",
+    "Price": "180 ден",
+    "Image": "https://korpa.ba/product_uploads/2snb4OXUtQybwNN9QmV51h3UFyTEyIvg.jpg"
+  },
+  {
+    "Name": "Crispy Chicken",
+    "Description": "Бургер лепче, colslow салата, поховано пилешко",
+    "Price": "170 ден",
+    "Image": "https://korpa.ba/product_uploads/KRiVS8en5Tobl6Ywn98H3ssZLpi6zm4E.jpg"
+  },
+  {
+    "Name": "Crispy Ranch",
+    "Description": "Бургер лепче, ранч сос, ајсберг, крцкаво пилешко",
+    "Price": "190 ден",
+    "Image": "https://www.theimpulsivebuy.com/wordpress/wp-content/uploads/2017/05/BACON-CHEDDAR-RANCH-CRISPY-CHICKEN-SANDWICH.jpg"
+  },
+  {
+    "Name": "Los Polos Hermanos",
+    "Description": "Бургер лепче, мед и сенф сос, поховано пилешко, кашкавал, ајсберг, кисели краставички",
+    "Price": "220 ден",
+    "Image": "https://korpa.ba/product_uploads/Ap6v67Z7LU7Z7plSYPCJHWswTcNDZT4R.jpg"
+  },
+  {
+    "Name": "Chilli Chicken",
+    "Description": "Бургер лепче, крцкаво похувано пилешко, чедар, ајсберг, кисели краставички, чили сос",
+    "Price": "220 ден",
+    "Image": "https://korpa.ba/product_uploads/5uBtT4ZMctMMUWLbQzG13J8cWmDZJwIH.jpg"
+  },
+  {
+    "Name": "Classic Dog",
+    "Description": "Хот дог лепче, виршла, кечап, кари, сенф",
+    "Price": "180 ден",
+    "Image": "https://hips.hearstapps.com/hmg-prod/images/hotdog-royalty-free-image-185123377-1562609410.jpg"
+  },
+  {
+    "Name": "Cheese Dog",
+    "Description": "Хот дог лепче, виршла, мед и сенф сос, ајсберг, кисели краставици, чедар x3",
+    "Price": "180 ден",
+    "Image": "https://www.simplyrecipes.com/thmb/7ROH4eqjTVeOIhpR4ZWzLUe4CHQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2010__05__chili-dog-horiz-a-1600-1a1f025054124cd886baab5b14d8d5b6.jpg"
+  },
+  {
+    "Name": "Baking Bread Dog",
+    "Description": "Хот дог лепче, виршла, бургер сос, ајсберг, кисели краставици, чедар x2, карамелизиран кромид, онион рингс x3",
+    "Price": "200 ден",
+    "Image": "https://hips.hearstapps.com/hmg-prod/images/big-mac-hotdog-7-1656099486.jpeg?crop=1xw:0.82801766437684xh;center,top&resize=1200:*"
+  },
+  {
+    "Name": "Mini Hamburger",
+    "Description": "Мини бриош лепче, кари сос, кечап, плескавица, кисели краставички, кромид",
+    "Price": "110 ден",
+    "Image": "https://tastesbetterfromscratch.com/wp-content/uploads/2020/06/Classic-Juicy-Hamburger-Recipe-Square.jpg"
+  },
+  {
+    "Name": "Mini Cheeseburger",
+    "Description": "Мини бриош лепче, јунешка плескавица, кашкавал, ситно сецкан кромид, кисели краставички, кечап, сенф",
+    "Price": "120 ден",
+    "Image": "https://korpa.mk/product_uploads/tmLRoTUnjLSgeNU6U3Rog1Jna4EuDTcl.jpg"
+  },
+  {
+    "Name": "Mini Chicken Burger",
+    "Description": "Мини бриош лепче, кари сос, кечап, поховано пилешко, кисели краставички, кромид",
+    "Price": "110 ден",
+    "Image": "https://www.recipetineats.com/wp-content/uploads/2017/07/Chicken-Burgers-4.jpg"
+  },
+  {
+    "Name": "Mini Cheese Chicken",
+    "Description": "",
+    "Price": "120 ден",
+    "Image": "https://www.chicken.ca/wp-content/uploads/2017/09/Jalapeno-Popper-Chicken-Burgers-1.jpg"
+  },
+  {
+    "Name": "Chicken Nuggets (6pcs) + sauce",
+    "Description": "",
+    "Price": "140 ден",
+    "Image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Chicken-McNuggets-6-pieces-2:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
+  },
+  {
+    "Name": "Chicken Nuggets (9pcs) + sauce",
+    "Description": "",
+    "Price": "180 ден",
+    "Image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Chicken-McNuggets-6-pieces-2:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
+  },
+  {
+    "Name": "Classic Wrap",
+    "Description": "Тортиља, поховано пилешко, помфрит, кисели краставички, кари сос",
+    "Price": "180 ден",
+    "Image": "https://hips.hearstapps.com/hmg-prod/images/del099923-tuscan-chicken-wraps-web-0921-eb-hi-res-index-6529d12dd21fe.jpg?crop=0.8883780332056195xw:1xh;center,top&resize=1200:*"
+  },
+  {
+    "Name": "Cezar Wrap",
+    "Description": "Тортиља, ранч сос, крцкаво поховано пилешко, чедар, ајсберг, кромид",
+    "Price": "190 ден",
+    "Image": "https://korpa.mk/product_uploads/0kF0J611CiuFYiAztRd1IFkPCfEmoJ9l.jpg"
+  },
+  {
+    "Name": "Los Polos Wrap",
+    "Description": "Тортиља, мед и сенф сос, поховано пилешко, чедар, ајсберг, кисели краставички",
+    "Price": "200 ден",
+    "Image": "https://korpa.mk/product_uploads/G4Ddx6sFzfpuNwFOJZ4NuZt8IeTjXohk.jpg"
+  },
+  {
+    "Name": "Baking Bread Wrap",
+    "Description": "Тортиља, поховано пилешко, чедар, бургер сос, ајсберг, кисели краставички",
+    "Price": "220 ден",
+    "Image": "https://www.howsweeteats.com/wp-content/uploads/2022/01/buffalo-chicken-wraps-12.jpg"
+  },
+  {
+    "Name": "Chilli Wrap",
+    "Description": "Тортиља, крцкаво пилешко, чедар, ајсберг, кисели краставички, чили сос",
+    "Price": "220 ден",
+    "Image": "https://korpa.mk/product_uploads/PE16a2w9PXDsAUuW67430dX2CUCuFK3m.jpg"
+  },
+  {
+    "Name": "Premium Wrap",
+    "Description": "Тортиља, поховано пилешко, чедар, garlic mayo, honey glazed, ајсберг",
+    "Price": "240 ден",
+    "Image": "https://korpa.mk/product_uploads/2XeFGIrLRmtJmxhPXwrYzLfxICXfdIDl.jpg"
+  },
+  {
+    "Name": "Vege Burger",
+    "Description": "Бриож лепче, бургер сос, ајсберг, кисели краставици, веганска плескавица, кашкавал, карамелизиран кромид",
+    "Price": "270 ден",
+    "Image": "https://sweetsimplevegan.com/wp-content/uploads/2023/02/Black_Bean_Burgers_5_Ingredients_sweet_simple_vegan_5.jpg"
+  },
+  {
+    "Name": "Vegan Burger",
+    "Description": "Бриож лепче, посен мајонез, кечап, ајсберг, кисели краставици, веганска плескавица, карамелизиран кромид",
+    "Price": "270 ден",
+    "Image": "https://elavegan.com/wp-content/uploads/2019/09/Vegan-burger-with-Awesome-burger-patty-veggies-and-homemade-cheese.jpg"
+  },
+  {
+    "Name": "Fries",
+    "Description": "",
+    "Price": "70 ден",
+    "Image": "https://korpa.mk/product_uploads/LNa7LaKi8xwaPR8PHBZsnFPO8ckkUyHE.jpg"
+  },
+  {
+    "Name": "Kanu",
+    "Description": "",
+    "Price": "120 ден",
+    "Image": "https://korpa.mk/product_uploads/SuI1zi5IHhUDL0iRc791oJI0A2Er84aL.jpg"
+  }
+]
