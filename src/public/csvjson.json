@@ -39,7 +39,7 @@
     "Name": "Single Smash",
     "Description": "Бриож лепче, 100% јунешка плескавица, кашкавал, кечап, сенф, ситно сецкан кромид и кисели краставички",
     "Price": "220 ден",
-    "Image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dimitrasdishes.com%2Fthe-best-smash-burger-recipe%2F&psig=AOvVaw2U0db3H7JYDt9ZLe-kXYIy&ust=1702476060348000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjeqtqHioMDFQAAAAAdAAAAABAD"
+    "Image": "https://www.dimitrasdishes.com/wp-content/uploads/2022/05/WEB-Close-up-Center.jpg"
   },
   {
     "Name": "Premium Cheeseburger (2x smash beef)",
@@ -157,13 +157,13 @@
   },
   {
     "Name": "Chicken Nuggets (6pcs) + sauce",
-    "Description": "",
+    "Description": "6 парчиња Chicken Nuggets направени со 100% месо од пилешки гради во вкусно крцкав слој, само што чека да се натопи. Цврст омилен кај сите.",
     "Price": "140 ден",
     "Image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Chicken-McNuggets-6-pieces-2:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
   },
   {
     "Name": "Chicken Nuggets (9pcs) + sauce",
-    "Description": "",
+    "Description": "9 парчиња Chicken Nuggets направени со 100% месо од пилешки гради во вкусно крцкав слој, само што чека да се натопи. Цврст омилен кај сите.",
     "Price": "180 ден",
     "Image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Chicken-McNuggets-6-pieces-2:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
   },
@@ -217,13 +217,13 @@
   },
   {
     "Name": "Fries",
-    "Description": "",
+    "Description": "Нашиот помфрит секојдневно се сече рачно, се натопува во вода за да се отстранат скробот, се бланшира еднаш, а потоа се завршува по ваше барање",
     "Price": "70 ден",
     "Image": "https://korpa.mk/product_uploads/LNa7LaKi8xwaPR8PHBZsnFPO8ckkUyHE.jpg"
   },
   {
     "Name": "Kanu",
-    "Description": "",
+    "Description": "Нашиот помфрит секојдневно се сече рачно, се натопува во вода за да се отстранат скробот, се бланшира еднаш, а потоа се завршува по ваше барање",
     "Price": "120 ден",
     "Image": "https://korpa.mk/product_uploads/SuI1zi5IHhUDL0iRc791oJI0A2Er84aL.jpg"
   }
