@@ -5,17 +5,9 @@ import { useEffect, useState } from "react";
 import MyComponent from "./order/page";
 
 export default function Home() {
-  // const [foodItems, setFoodItems] = useState([]);
-  //useEffect(() => {
-  //   setFoodItems(JSON.parse(JSON.stringify(jsonData)));
-  // }, []);
-   return (
-     <div>
-       <MyComponent></MyComponent>
-     </div>
-   );
+  return (
+    <div>
+      <MyComponent></MyComponent>
+    </div>
+  );
 }
-
-  //     {foodItems.map((food) => (
-  //       <h1>{food.Name}</h1>
-  //     ))}
