@@ -1,13 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-
 @import "typeface-roboto-condensed";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .custom-font {
   font-family: "Roboto Condensed", sans-serif;
+  @import "typeface-roboto-condensed";
 }
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* other global styles */
 
 body {
   background-size: 80px 80px;
@@ -53,4 +62,19 @@ body {
   display: flex;
   justify-content: flex-end;
   font-size: 25px;
+}
+
+@keyframes horizontalScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(100vw - 195px)
+    ); /* Move to the end of the page */
+  }
+}
+
+.animate-horizontal-scroll {
+  animation: horizontalScroll 10s linear infinite;
 }
