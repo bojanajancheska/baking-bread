@@ -5,10 +5,23 @@ import ImageB from "/images/burger-holding.png";
 import ImageBlob from "/images/blob.png";
 import GroupExample from "./cardsFunc";
 import jsonData from "../../public/csvjson.json";
+import LoginModal from ".//modal.js";
+import SignupModal from ".//signup-modal";
 import { useState } from "react";
 
 export default function MyComponent() {
   const [isPictureVisible, setIsPictureVisible] = useState(true);
+  const [showLoginModal, setShowLoginModal] = useState(false);
+  const [showSignupModal, setShowSignupModal] = useState(false);
+
+  const handleLoginClick = () => {
+    setShowLoginModal(true);
+  };
+
+  const handleSignupClick = () => {
+    setShowSignupModal(true);
+  };
+
   return (
     <div>
       <div className="w-full">
@@ -35,13 +48,20 @@ export default function MyComponent() {
             </div>
             <div className="mr-2">
               <button
-                onClick={() => handleOrderNowButtonClick()} // Replace handleOrderNowButtonClick with your actual click handler function
-                className="w-full lg:w-[170px] h-[50px] px-4 py-2 bg-yellow-400 rounded-full shadow border border-black flex items-center justify-center focus:outline-none"
+                onClick={() => setShowLoginModal(true)}
+                className="w-full lg:w-[170px] h-[50px] px-4 py-2
+                bg-yellow-400 rounded-full shadow border border-black flex
+                items-center justify-center focus:outline-none"
               >
                 <div className="text-center text-black text-xl font-bold font-['Roboto Condensed']">
                   ORDER NOW
                 </div>
               </button>
+              {showLoginModal && (
+                <LoginModal
+                  onClose={() => setShowLoginModal(false)}
+                ></LoginModal>
+              )}{" "}
             </div>
           </div>
         </div>
@@ -62,13 +82,18 @@ export default function MyComponent() {
                       190 ДЕНАРИ
                     </span>
                     {/* Button */}
-                    <div
-                      onClick={() => handlePlusButtonClick()} // Replace handlePlusButtonClick with your actual click handler function
-                      className="w-[58px] h-[58px] px-[5px] py-2.5 right-[-36px] absolute bg-yellow-400 rounded-[30px] shadow cursor-pointer"
-                    >
-                      <div className="w-12 h-[38px] text-center mb-1 text-black text-4xl font-bold font-['Roboto Condensed']">
+                    <div className="w-[58px] h-[58px] px-[5px] py-2.5 right-[-36px] absolute bg-yellow-400 rounded-[30px] shadow cursor-pointer">
+                      <div
+                        onClick={() => setShowSignupModal(true)}
+                        className="w-12 h-[38px] text-center mb-1 text-black text-4xl font-bold font-['Roboto Condensed']"
+                      >
                         +
                       </div>
+                      {showSignupModal && (
+                        <SignupModal
+                          onClose={() => setShowSignupModal(false)}
+                        />
+                      )}
                     </div>
                   </div>
                 </div>

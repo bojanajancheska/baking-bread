@@ -13,7 +13,8 @@
     "next": "14.0.4",
     "react": "^18",
     "react-bootstrap": "^2.9.1",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "typeface-roboto-condensed": "^1.1.13"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
