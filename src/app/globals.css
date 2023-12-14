@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "typeface-roboto-condensed";
+
+.custom-font {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 body {
   background-size: 80px 80px;
   background-image: linear-gradient(
@@ -13,6 +19,41 @@ body {
     ),
     linear-gradient(to bottom, rgba(0, 8, 20, 0.5) 1px, transparent 0.5px);
   background-color: #ffc300;
+}
+
+.modal-wrapper {
+  width: 500px;
+  height: 600px;
+}
+
+.modal {
+  background: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-body {
+  padding-top: 10px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 25px;
 }
 
 @keyframes horizontalScroll {
