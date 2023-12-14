@@ -41,7 +41,7 @@ export default function MyComponent() {
                 onClick={() => handleMenuButtonClick()} // Replace handleMenuButtonClick with your actual click handler function
                 className="w-full lg:w-[170px] h-[50px] px-4 py-2 bg-yellow-400 rounded-full shadow border border-black flex items-center justify-center focus:outline-none"
               >
-                <div className="text-center text-black text-xl font-bold font-['Roboto Condensed']">
+                <div className="text-center text-black text-xl font-bold font-condensed">
                   MENU
                 </div>
               </button>
@@ -53,7 +53,7 @@ export default function MyComponent() {
                 bg-yellow-400 rounded-full shadow border border-black flex
                 items-center justify-center focus:outline-none"
               >
-                <div className="text-center text-black text-xl font-bold font-['Roboto Condensed']">
+                <div className="text-center text-black text-xl font-bold font-condensed">
                   ORDER NOW
                 </div>
               </button>
@@ -78,14 +78,14 @@ export default function MyComponent() {
               <div className="pr-[13px] left-0 top-[260px] absolute bg-sky-900 rounded-[30px] justify-start items-center inline-flex">
                 <div className="w-[433px] h-[105px] text-center relative">
                   <div className="w-[433px] h-[105px] text-center relative flex flex-col justify-center">
-                    <span className="text-neutral-100 text-[2.5rem] font-bold font-['Roboto Condensed'] leading-[40px] mt-0">
+                    <span className="text-neutral-100 text-[2.5rem] font-bold font-condensed leading-[40px] mt-0">
                       190 ДЕНАРИ
                     </span>
                     {/* Button */}
                     <div className="w-[58px] h-[58px] px-[5px] py-2.5 right-[-36px] absolute bg-yellow-400 rounded-[30px] shadow cursor-pointer">
                       <div
                         onClick={() => setShowSignupModal(true)}
-                        className="w-12 h-[38px] text-center mb-1 text-black text-4xl font-bold font-['Roboto Condensed']"
+                        className="w-12 h-[38px] text-center mb-1 text-black text-4xl font-bold font-condensed"
                       >
                         +
                       </div>
@@ -98,21 +98,21 @@ export default function MyComponent() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center justify-center w-[85px] h-[37px] left-0 top-[0.50px] absolute text-center text-neutral-100 text-2xl font-bold font-['Roboto Condensed'] leading-[30.06px]">
+              <div className="flex items-center justify-center w-[85px] h-[37px] left-0 top-[0.50px] absolute text-center text-neutral-100 text-2xl font-bold font-condensed leading-[30.06px]">
                 NEW
               </div>
               <div className="w-[330px] h-[0px] left-[90px] top-[17px] absolute border-4 border-sky-900"></div>
             </div>
             <div className="w-[433px] h-[105px] text-center mt-4">
-              <span className="text-black text-[50px] font-bold font-['Roboto Condensed'] leading-[64.12px] mb-2">
+              <span className="text-black text-[50px] font-bold font-condensed leading-[64.12px] mb-2">
                 ПРЕМИУМ
               </span>
               <br />
-              <span className="text-black text-[50px] font-bold font-['Roboto Condensed'] leading-[64.12px] mb-2">
+              <span className="text-black text-[50px] font-bold font-condensed leading-[64.12px] mb-2">
                 JESSE PINKMAN
               </span>
               <br />
-              <span className="text-black text-[50px] font-bold font-['Roboto Condensed'] leading-[64.12px]">
+              <span className="text-black text-[50px] font-bold font-condensed leading-[64.12px]">
                 ПРОМОТИВНО
               </span>
             </div>

@@ -19,7 +19,7 @@ const LoginModal = ({ onClose, children, title }) => {
         className="w-[80vw] sm:w-[70vw] md:w-[50vw] lg:w-[40vw] xl:w-[30vw] h-[70vh] relative opacity-90 rounded-lg overflow-hidden"
       >
         <div className="absolute left-0 top-0 h-[8vh] sm:h-[10vh] pr-11 justify-start items-center inline-flex">
-          <div className="ml-[3vh] mt-[3vh] w-[18vw] sm:w-[22vw] h-[8vh] sm:h-[10vh] text-left text-black text-4xl font-bold font-['Roboto Condensed']">
+          <div className="ml-[3vh] mt-[3vh] w-[18vw] sm:w-[22vw] h-[8vh] sm:h-[10vh] text-left text-black text-4xl font-bold font-condensed">
             LOGIN.
           </div>
         </div>
@@ -35,7 +35,7 @@ const LoginModal = ({ onClose, children, title }) => {
           <div className="mb-4">
             <label
               htmlFor="email"
-              className="block text-left pl-[1vh] text-black text-2xl font-bold font-['Roboto Condensed']"
+              className="block text-left pl-[1vh] text-black text-2xl font-bold font-condensed"
             >
               Email:
             </label>
@@ -50,7 +50,7 @@ const LoginModal = ({ onClose, children, title }) => {
           <div className="mb-4">
             <label
               htmlFor="password"
-              className="block text-left pl-[1vh] text-black text-2xl font-bold font-['Roboto Condensed']"
+              className="block text-left pl-[1vh] text-black text-2xl font-bold font-condensed"
             >
               Password:
             </label>
@@ -64,7 +64,7 @@ const LoginModal = ({ onClose, children, title }) => {
 
           <button
             type="submit"
-            className="mt-[10vh] w-full h-[7vh] px-4 bg-yellow-400 rounded-full text-black text-3xl font-bold font-['Roboto Condensed']"
+            className="mt-[10vh] w-full h-[7vh] px-4 bg-yellow-400 rounded-full text-black text-3xl font-bold font-condensed"
             onClick={handleSubmit}
           >
             LOGIN

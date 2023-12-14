@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+@import "typeface-roboto-condensed";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import "typeface-roboto-condensed";
 
 .custom-font {
   font-family: "Roboto Condensed", sans-serif;

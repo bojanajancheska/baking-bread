@@ -48,7 +48,7 @@ const SignupModal = ({ onClose }) => {
         className="w-full max-w-[80vw] sm:max-w-[70vw] md:max-w-[50vw] lg:max-w-[40vw] xl:max-w-[30vw] h-[70vh] relative opacity-90 rounded-lg p-8 overflow-y-auto"
       >
         <div className="absolute left-0 top-0 h-[8vh] sm:h-[10vh] pr-11 justify-start items-center inline-flex">
-          <div className="mt-[2vw] ml-[2vw] w-[18vw] sm:w-[22vw] h-[8vh] sm:h-[10vh] text-left text-black text-4xl font-bold font-['Roboto Condensed']">
+          <div className="mt-[2vw] ml-[2vw] w-[18vw] sm:w-[22vw] h-[8vh] sm:h-[10vh] text-left text-black text-4xl font-bold font-condensed">
             SIGN UP.
           </div>
         </div>
@@ -64,7 +64,7 @@ const SignupModal = ({ onClose }) => {
           <div className="mb-4">
             <label
               htmlFor="name"
-              className="block text-left text-black text-2xl font-bold font-['Roboto Condensed']"
+              className="block text-left text-black text-2xl font-bold font-condensed"
             >
               Name:
             </label>
@@ -81,7 +81,7 @@ const SignupModal = ({ onClose }) => {
           <div className="mb-4">
             <label
               htmlFor="email"
-              className="block text-left text-black text-2xl font-bold font-['Roboto Condensed']"
+              className="block text-left text-black text-2xl font-bold font-condensed"
             >
               Email:
             </label>
@@ -98,7 +98,7 @@ const SignupModal = ({ onClose }) => {
           <div className="mb-4">
             <label
               htmlFor="phoneNumber"
-              className="block text-left text-black text-2xl font-bold font-['Roboto Condensed']"
+              className="block text-left text-black text-2xl font-bold font-condensed"
             >
               Phone Number:
             </label>
@@ -114,7 +114,7 @@ const SignupModal = ({ onClose }) => {
           <div className="mb-4">
             <label
               htmlFor="password"
-              className="text-black text-2xl font-bold font-['Roboto Condensed']"
+              className="text-black text-2xl font-bold font-condensed"
             >
               Password:
             </label>
@@ -133,7 +133,7 @@ const SignupModal = ({ onClose }) => {
           <div className="mb-4">
             <label
               htmlFor="confirmPassword"
-              className="text-black text-2xl font-bold font-['Roboto Condensed']"
+              className="text-black text-2xl font-bold font-condensed"
             >
               Confirm Password:
             </label>
@@ -155,7 +155,7 @@ const SignupModal = ({ onClose }) => {
 
           <button
             type="submit"
-            className="mt-8 w-full h-[7vh] px-4 bg-yellow-400 rounded-full text-black text-3xl font-bold font-['Roboto Condensed']"
+            className="mt-8 w-full h-[7vh] px-4 bg-yellow-400 rounded-full text-black text-3xl font-bold font-condensed"
             onClick={handleSubmit}
           >
             SIGN UP

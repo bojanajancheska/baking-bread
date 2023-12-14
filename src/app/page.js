@@ -8,7 +8,7 @@ import UserOrder from "./order/orderpage";
 export default function Home() {
   return (
     <div id="modal-root modal-sup-root">
-      <MyComponent />
+      <UserOrder />
     </div>
   );
 }
