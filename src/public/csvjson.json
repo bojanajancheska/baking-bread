@@ -114,24 +114,6 @@
     "Image": "https://korpa.ba/product_uploads/5uBtT4ZMctMMUWLbQzG13J8cWmDZJwIH.jpg"
   },
   {
-    "Name": "Classic Dog",
-    "Description": "Хот дог лепче, виршла, кечап, кари, сенф",
-    "Price": "180 ден",
-    "Image": "https://hips.hearstapps.com/hmg-prod/images/hotdog-royalty-free-image-185123377-1562609410.jpg"
-  },
-  {
-    "Name": "Cheese Dog",
-    "Description": "Хот дог лепче, виршла, мед и сенф сос, ајсберг, кисели краставици, чедар x3",
-    "Price": "180 ден",
-    "Image": "https://www.simplyrecipes.com/thmb/7ROH4eqjTVeOIhpR4ZWzLUe4CHQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2010__05__chili-dog-horiz-a-1600-1a1f025054124cd886baab5b14d8d5b6.jpg"
-  },
-  {
-    "Name": "Baking Bread Dog",
-    "Description": "Хот дог лепче, виршла, бургер сос, ајсберг, кисели краставици, чедар x2, карамелизиран кромид, онион рингс x3",
-    "Price": "200 ден",
-    "Image": "https://hips.hearstapps.com/hmg-prod/images/big-mac-hotdog-7-1656099486.jpeg?crop=1xw:0.82801766437684xh;center,top&resize=1200:*"
-  },
-  {
     "Name": "Mini Hamburger",
     "Description": "Мини бриош лепче, кари сос, кечап, плескавица, кисели краставички, кромид",
     "Price": "110 ден",
@@ -156,16 +138,22 @@
     "Image": "https://www.chicken.ca/wp-content/uploads/2017/09/Jalapeno-Popper-Chicken-Burgers-1.jpg"
   },
   {
-    "Name": "Chicken Nuggets (6pcs) + sauce",
-    "Description": "6 парчиња Chicken Nuggets направени со 100% месо од пилешки гради во вкусно крцкав слој, само што чека да се натопи. Цврст омилен кај сите.",
-    "Price": "140 ден",
-    "Image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Chicken-McNuggets-6-pieces-2:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
+    "Name": "Classic Dog",
+    "Description": "Хот дог лепче, виршла, кечап, кари, сенф",
+    "Price": "180 ден",
+    "Image": "https://hips.hearstapps.com/hmg-prod/images/hotdog-royalty-free-image-185123377-1562609410.jpg"
   },
   {
-    "Name": "Chicken Nuggets (9pcs) + sauce",
-    "Description": "9 парчиња Chicken Nuggets направени со 100% месо од пилешки гради во вкусно крцкав слој, само што чека да се натопи. Цврст омилен кај сите.",
+    "Name": "Cheese Dog",
+    "Description": "Хот дог лепче, виршла, мед и сенф сос, ајсберг, кисели краставици, чедар x3",
     "Price": "180 ден",
-    "Image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Chicken-McNuggets-6-pieces-2:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
+    "Image": "https://www.simplyrecipes.com/thmb/7ROH4eqjTVeOIhpR4ZWzLUe4CHQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2010__05__chili-dog-horiz-a-1600-1a1f025054124cd886baab5b14d8d5b6.jpg"
+  },
+  {
+    "Name": "Baking Bread Dog",
+    "Description": "Хот дог лепче, виршла, бургер сос, ајсберг, кисели краставици, чедар x2, карамелизиран кромид, онион рингс x3",
+    "Price": "200 ден",
+    "Image": "https://hips.hearstapps.com/hmg-prod/images/big-mac-hotdog-7-1656099486.jpeg?crop=1xw:0.82801766437684xh;center,top&resize=1200:*"
   },
   {
     "Name": "Classic Wrap",
@@ -214,6 +202,18 @@
     "Description": "Бриож лепче, посен мајонез, кечап, ајсберг, кисели краставици, веганска плескавица, карамелизиран кромид",
     "Price": "270 ден",
     "Image": "https://elavegan.com/wp-content/uploads/2019/09/Vegan-burger-with-Awesome-burger-patty-veggies-and-homemade-cheese.jpg"
+  },
+  {
+    "Name": "Chicken Nuggets (6pcs) + sauce",
+    "Description": "6 парчиња Chicken Nuggets направени со 100% месо од пилешки гради во вкусно крцкав слој, само што чека да се натопи. Цврст омилен кај сите.",
+    "Price": "140 ден",
+    "Image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Chicken-McNuggets-6-pieces-2:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
+  },
+  {
+    "Name": "Chicken Nuggets (9pcs) + sauce",
+    "Description": "9 парчиња Chicken Nuggets направени со 100% месо од пилешки гради во вкусно крцкав слој, само што чека да се натопи. Цврст омилен кај сите.",
+    "Price": "180 ден",
+    "Image": "https://s7d1.scene7.com/is/image/mcdonalds/mcdonalds-Chicken-McNuggets-6-pieces-2:1-3-product-tile-desktop?wid=829&hei=515&dpr=off"
   },
   {
     "Name": "Fries",
