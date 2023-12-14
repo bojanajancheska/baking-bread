@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
+import LoginModal from ".//modal";
 
-const SignupModal = ({ onClose }) => {
+const SignupModal = ({ onClose, onModalSwitch }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -41,6 +42,9 @@ const SignupModal = ({ onClose }) => {
     }));
   };
 
+  const handleSwitchToLogin = () => {
+    setIsLoginForm(true);
+  };
   return ReactDOM.createPortal(
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div
@@ -153,13 +157,25 @@ const SignupModal = ({ onClose }) => {
             <p className="text-red-500 text-sm">Passwords do not match.</p>
           )}
 
-          <button
-            type="submit"
-            className="mt-8 w-full h-[7vh] px-4 bg-yellow-400 rounded-full text-black text-3xl font-bold font-['Roboto Condensed']"
-            onClick={handleSubmit}
-          >
-            SIGN UP
-          </button>
+          <div className="flex flex-col items-center">
+            <button
+              type="submit"
+              className="mt-8 w-full h-[7vh] px-4 bg-yellow-400 rounded-full text-black text-3xl font-bold font-['Roboto Condensed']"
+              onClick={handleSubmit}
+            >
+              SIGN UP
+            </button>
+            <div className="mt-4">
+              Already signed up?{" "}
+              <button
+                type="button"
+                className="text-blue-500 underline"
+                onClick={onModalSwitch}
+              >
+                Login
+              </button>
+            </div>
+          </div>
         </form>
       </div>
     </div>,

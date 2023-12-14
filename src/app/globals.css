@@ -6,9 +6,28 @@
 
 @import "typeface-roboto-condensed";
 
-.custom-font {
-  font-family: "Roboto Condensed", sans-serif;
+/* styles/globals.css */
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* other global styles */
 
 body {
   background-size: 80px 80px;

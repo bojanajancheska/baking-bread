@@ -22,6 +22,7 @@ export default function MyComponent() {
   const [showLoginModal, setShowLoginModal] = useState(false);
   const [showSignupModal, setShowSignupModal] = useState(false);
   const [arrowClicked, setArrowClicked] = useState(false);
+  const [showSignupAfterLogin, setShowSignupAfterLogin] = useState(false);
 
   const handleLoginClick = () => {
     setShowLoginModal(true);
@@ -69,6 +70,19 @@ export default function MyComponent() {
       alt={`Lets Cook ${index}`}
     />
   ));
+  const handleLoginModalClose = () => {
+    setShowLoginModal(false);
+
+    // If showSignupAfterLogin is true, open the signup modal
+    if (showSignupAfterLogin) {
+      setShowSignupAfterLogin(false);
+      setShowSignupModal(true);
+    }
+  };
+
+  const handleSignupModalClose = () => {
+    setShowSignupModal(false);
+  };
 
   return (
     <div>
@@ -107,9 +121,17 @@ export default function MyComponent() {
               </button>
               {showLoginModal && (
                 <LoginModal
-                  onClose={() => setShowLoginModal(false)}
+                  onClose={handleLoginModalClose}
+                  onModalSwitch={() => {
+                    setShowLoginModal(false);
+                    setShowSignupModal(true);
+                  }}
                 ></LoginModal>
-              )}{" "}
+              )}
+
+              {showSignupModal && (
+                <SignupModal onClose={handleSignupModalClose}></SignupModal>
+              )}
             </div>
           </div>
         </div>
@@ -139,7 +161,12 @@ export default function MyComponent() {
                       </div>
                       {showSignupModal && (
                         <SignupModal
-                          onClose={() => setShowSignupModal(false)}
+                          // onClose={() => setShowSignupModal(false)}
+                          onClose={handleSignupModalClose}
+                          onModalSwitch={() => {
+                            setShowLoginModal(true);
+                            setShowSignupModal(false);
+                          }}
                         />
                       )}
                     </div>
