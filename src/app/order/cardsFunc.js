@@ -63,13 +63,6 @@ function GroupExample({ jsonData }) {
           </div>
         </div>
       ))}
-      {selectedItem && (
-        <Link
-          href={`/order?item=${selectedItem.Name}&price=${selectedItem.Price}`}
-        >
-          <a>Redirecting to order page...</a>
-        </Link>
-      )}
     </div>
   );
 }

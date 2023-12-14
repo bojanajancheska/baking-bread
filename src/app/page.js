@@ -11,7 +11,7 @@ import localFont from "next/font/local";
 export default function Home() {
   return (
     <div id="modal-root modal-sup-root">
-      <UserOrder />
+      <MyComponent />
     </div>
   );
 }
