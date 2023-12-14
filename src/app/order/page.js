@@ -14,7 +14,7 @@ import GroupExample from "./cardsFunc";
 import jsonData from "../../public/csvjson.json";
 import LoginModal from ".//modal.js";
 import SignupModal from ".//signup-modal";
-import { useState } from "react";
+
 import "../globals.css"; // Import the global CSS file
 
 export default function MyComponent() {
@@ -191,86 +191,87 @@ export default function MyComponent() {
         </div>
         {/* Display Food Items */}
         <div
-        id="foodItemsSection"
-        className="w-[1380px] h-[231px] pl-[61px] pr-[31px] pt-4 pb-[19px] justify-start items-center gap-[76px] inline-flex cursor-pointer"
-        onClick={scrollToFoodItems}
-      >
-        <div className="ml-[-10px] mb-[10px] grow shrink basis-0 h-[196px] justify-start items-center gap-[25px] flex m-scroll">
-          {letsCookImages}
-          <div className="text-white text-4xl font-bold absolute bottom-0">
-            ▼
+          id="foodItemsSection"
+          className="w-[1380px] h-[231px] pl-[61px] pr-[31px] pt-4 pb-[19px] justify-start items-center gap-[76px] inline-flex cursor-pointer"
+          onClick={scrollToFoodItems}
+        >
+          <div className="ml-[-10px] mb-[10px] grow shrink basis-0 h-[196px] justify-start items-center gap-[25px] flex m-scroll">
+            {letsCookImages}
+            <div className="text-white text-4xl font-bold absolute bottom-0">
+              ▼
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[940px] absolute justify-start  gap-2.5 inline-flex flex-col ">
-        <div className="flex items-center">
-          <Image className="w-[86px] h-[86px]" src={Burger} />
-          <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
-            Burgers
+        <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[940px] absolute justify-start  gap-2.5 inline-flex flex-col ">
+          <div className="flex items-center">
+            <Image className="w-[86px] h-[86px]" src={Burger} />
+            <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
+              Burgers
+            </div>
           </div>
+          <br />
+          {/* Display Food Items */}
+          <GroupExample jsonData={burgers} />
         </div>
-        <br />
-        {/* Display Food Items */}
-        <GroupExample jsonData={burgers} />
-      </div>
 
-      <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[3730px] absolute justify-start  gap-2.5 inline-flex flex-col">
-        <div className="flex items-center">
-          <Image className="w-[86px] h-[86px]" src={Burger} />
-          <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
-            Mini Burgers
+        <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[3730px] absolute justify-start  gap-2.5 inline-flex flex-col">
+          <div className="flex items-center">
+            <Image className="w-[86px] h-[86px]" src={Burger} />
+            <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
+              Mini Burgers
+            </div>
           </div>
+          {/* Display Food Items */}
+          <GroupExample jsonData={miniBurgers} />
         </div>
-        {/* Display Food Items */}
-        <GroupExample jsonData={miniBurgers} />
-      </div>
 
-      <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[4400px] absolute justify-start  gap-2.5 inline-flex flex-col">
-        <div className="flex items-center">
-          <Image className="w-[86px] h-[86px]" src={Vegan} />
-          <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
-            Vegan Options
+        <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[4400px] absolute justify-start  gap-2.5 inline-flex flex-col">
+          <div className="flex items-center">
+            <Image className="w-[86px] h-[86px]" src={Vegan} />
+            <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
+              Vegan Options
+            </div>
           </div>
+          {/* Display Food Items */}
+          <GroupExample jsonData={veganOptions} />
         </div>
-        {/* Display Food Items */}
-        <GroupExample jsonData={veganOptions} />
-      </div>
 
-      <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[5080px] absolute justify-start  gap-2.5 inline-flex flex-col">
-        <div className="flex items-center">
-          <Image className="w-[86px] h-[86px]" src={HotDog} />
-          <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
-            Hotdogs
+        <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[5080px] absolute justify-start  gap-2.5 inline-flex flex-col">
+          <div className="flex items-center">
+            <Image className="w-[86px] h-[86px]" src={HotDog} />
+            <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
+              Hotdogs
+            </div>
           </div>
+          {/* Display Food Items */}
+          <GroupExample jsonData={hotdogs} />
         </div>
-        {/* Display Food Items */}
-        <GroupExample jsonData={hotdogs} />
-      </div>
 
-      <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[5750px] absolute justify-start  gap-2.5 inline-flex flex-col">
-        <div className="flex items-center">
-          <Image className="w-[86px] h-[86px]" src={Wraps} />
-          <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
-            Wraps
+        <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[5750px] absolute justify-start  gap-2.5 inline-flex flex-col">
+          <div className="flex items-center">
+            <Image className="w-[86px] h-[86px]" src={Wraps} />
+            <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
+              Wraps
+            </div>
           </div>
+          {/* Display Food Items */}
+          <GroupExample jsonData={wraps} />
         </div>
-        {/* Display Food Items */}
-        <GroupExample jsonData={wraps} />
-      </div>
 
-      <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[6920px] absolute justify-start  gap-2.5 inline-flex flex-col">
-        <div className="flex items-center">
-          <Image className="w-[86px] h-[86px]" src={Sides} />
-          <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
-            Sides
+        <div className="ml-[-10vw] mt-[5vw] left-[165px] top-[6920px] absolute justify-start  gap-2.5 inline-flex flex-col">
+          <div className="flex items-center">
+            <Image className="w-[86px] h-[86px]" src={Sides} />
+            <div className="text-center text-black text-4xl font-bold font-['Roboto Condensed']">
+              Sides
+            </div>
           </div>
+          {/* Display Food Items */}
+          <GroupExample jsonData={sides} />
         </div>
-        {/* Display Food Items */}
-        <GroupExample jsonData={sides} />
+        {/* Food Items */}
+        {/* <GroupExample jsonData={jsonData} /> */}
       </div>
-      {/* Food Items */}
-      {/* <GroupExample jsonData={jsonData} /> */}
     </div>
   );
 }
